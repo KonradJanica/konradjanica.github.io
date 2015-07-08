@@ -113,7 +113,7 @@ ul.navig li a:hover,.active{
 	position: relative;
 }
 .banner-text{
-	position: absolute;
+	position: relative;
 	top: 36%;
 	left: 41%;
 }
