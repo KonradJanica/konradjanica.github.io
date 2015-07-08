@@ -50,7 +50,7 @@ ul.navig li a{
 	-ms-transition:0.5s all;
 }
 ul.navig li a:hover,.active{
-	border-bottom: 4px solid #0F8578;
+	border-bottom: 4px solid #E85E3C;
 }
 
 @media (max-width:768px){
@@ -75,7 +75,7 @@ ul.navig li a:hover,.active{
 	}
 	ul.navig{
 		display: none;
-		background: rgba(15, 133, 120, 0.5);
+    background: #E85E3C;
 		text-align:center;
 	}
 	ul.navig li{
@@ -104,7 +104,7 @@ ul.navig li a:hover,.active{
 }
 /*----slider----*/
 .header{
-	background:url(../images/banner.jpg);
+	background:url(../images/slide-bg.png);
 	background-size:cover;
 	-webkit-background-size:cover;
 	-o-background-size:cover;
@@ -113,9 +113,10 @@ ul.navig li a:hover,.active{
 	position: relative;
 }
 .banner-text{
-	position: relative;
-	top: 36%;
-	left: 41%;
+	position: absolute;
+	top: 30%;
+	left: 25%;
+  opacity: 0.7;
 }
 .app-design{
 	background: #E85E3C;
