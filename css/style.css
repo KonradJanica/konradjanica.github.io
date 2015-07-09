@@ -178,7 +178,7 @@ ul.navig li a:hover,.active{
 }
 /*----work-section---------*/
 .web-design{
-	background: #0F8578;
+	background: #E85E3C;
 	padding: 6em 0 0;
 	border-top:1px solid #000;
 }
@@ -266,12 +266,12 @@ a.dow-btn {
 	-o-border-radius: 0.3em;
 	font-weight: 400;
 	width: 42%;
-	border-bottom:4px solid #0B7468;
-	background: #0F8578;
+	border-bottom:4px solid #AE472D;
+	background: #E85E3C;
 }
 a.dow-btn:hover{
-	border-bottom:4px solid #024D45;
-	background: #086E62;
+	border-bottom:4px solid #742F1E;
+	background: #AE472D;
 }
 div#work {
 	border-bottom: 1px solid #DBDBDB;
@@ -565,7 +565,7 @@ h5{
 	font-weight: 400;
 }
 .copy-right p a{
-	color:#0F8578;
+	color:#E85E3C;
 }
 .copy-right p a:hover{
 	color: #fff;
