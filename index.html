@@ -58,272 +58,283 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!----//End-top-nav-script---->
 </head>
 <body>
-	<!----- start-header---->
-	<div class="header" id="home">
-		<div class="container">
-			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt=""></a>
-			</div>
-			<span class="menu"> </span>
-			<div class="clearfix"> </div>
-			<script>
-					$( "span.menu" ).click(function() {
-					  $( "ul.navig" ).slideToggle( "slow", function() {
-					    // Animation complete.
-					  });
-					});
-				</script>
-			<div class="navigation">
-				<ul class="navig">
-					<li class="active"><a href="#home" class="scroll">Home </a></li>
-					<li><a href="#about" class="scroll">About</a></li>
-					<li><a href="#work" class="scroll">Work</a></li>
-					<li><a class="popup-with-zoom-anim" href="#small-dialog">Price</a></li>
-					<li><a href="#contact" class="scroll">Contact</a></li>
-				</ul>
-			
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-		<div class ="banner-text"><img src="images/banner-text.png" /></div>
-	</div>
-		<!----- //End-header---->
-		<div id="about" class="app-design">
-			<div class="container">
-				<div class="col-md-6 app-img">
-					<img src="images/iphone.png" />
-				</div>
-				<div class="col-md-6 app-text">
-					<h1>MOBILE APP DESIGN</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					<div class="app-icons">
-							<ul class="t-social unstyled-list list-inline">
-											<li><a class="android" href="#"><span> </span></a></li>
-											<li><a class="apple" href="#"><span> </span></a></li>
-											<li><a class="windows" href="#"><span> </span></a></li>
-											<div class="clearfix"> </div>
-							</ul>
-						</div>
 
-				</div>
-				<div class="clearfix"> </div>
-			
-			</div>
-		</div>
-		<!----- //End-about---->
-		<div id="design" class="web-design">
-			<div class="container">
-				<div class="work-section">
-					<div class="col-md-5 web-text">
-						<h2>WEB DESIGN</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						<div class="web-icons">
-								<ul class="t-social unstyled-list list-inline">
-									<li><ahref="#"><img src="images/s.png" /></a></li>
-									<li><ahref="#"><img src="images/3.png" /></a></li>
-												<div class="clearfix"> </div>
-								</ul>
-							</div>
-					</div>
-					<div class="col-md-7 work-img">
-						<img src="images/system.png" />
-					</div>
-				<div class="clearfix"> </div>
-			</div>
-			</div>
-		</div>
-		<!----sreen-gallery-cursual---->
-		<div id="work" class="work">
-			<div class="container">
-			<h3>Our recent work</h3>
-						<div class="sreen-gallery-cursual">
-							<link href="css/owl.carousel.css" rel="stylesheet">
-							    <script src="js/owl.carousel.js"></script>
-							        <script>
-							    $(document).ready(function() {
-							      $("#owl-demo").owlCarousel({
-							        items :1,
-							        lazyLoad : true,
-							        autoPlay : true,
-							        navigation : true,
-							        navigationText :  false,
-							        pagination :false,
-							      });
-							    });
-							    </script>
-							 <!-- //requried-jsfiles-for owl -->
-							 <!-- start content_slider -->
-						       <div id="owl-demo" class="owl-carousel text-center">
-					                 <div class="item">
-					                 	<img src="images/slide1.png" />
-					                </div>
-					                <div class="item">
-					                	<img src="images/slide2.png" />
-					                </div>
-					                <div class="item">
-					                	<img src="images/slide1.png" />
-					                </div>
-				              </div>
-				              <div class="clearfix"> </div>
-				            </div>
- 						</div>
-				</div>
-			<!----- //End-work---->
-					<div id="price" class="Price">
-					              	<div id="small-dialog" class="mfp-hide">
-					                           	    <div class="plans_table">
-  			 	
-								  			 	<table width="100%" cellspacing="0" class="compare_plan">
-												<thead>
-								   					<tr>
-								        				<th class="plans-list"><h3>Plan Features</h3></th>
-								        				<th class="plans-list"><h3>Basic</h3><h4>$5<small>/month</small></h4></th>
-								        				<th class="plans-list"><h3>Economy</h3><h4>$9<small>/month</small></h4></th>
-								    				</tr>
-												</thead>
-													<tfoot>
-									    			<tr>
-												        <td> </td>
-								        				<td class="order_now"><a href="#account" class="scroll"><button>Order Now</button></a></td>
-								        				<td class="order_now"><a href="#account" class="scroll"><button>Order Now</button></a></td>
-													</tr>
-													</tfoot>				
-								   				<tbody>
-								   					<tr>
-									        			<td class="plan_list_title">Web Space</td>
-												        <td class="price_body">Unlimited</td>
-												        <td class="price_body">Unlimited</td>
-									    			</tr>
-								    				<tr>
-								        				<td class="plan_list_title">Bandwidth</td>
-														<td class="price_body">Unlimited</td>
-										        		<td class="price_body">Unlimited</td>
-								    				</tr>
-								    				<tr>
-								        				<td class="plan_list_title">25 GB Storage</td>
-											    	    <td class="price_body"><img src="images/icon-remove.png" alt="img"></td>
-											        	<td class="price_body">Unlimited</td>
-													</tr>
-								    				<tr>
-											    	    <td class="plan_list_title">iPhone App</td>
-											        	<td class="price_body"><img src="images/icon-remove.png" alt="img"></td>
-												        <td class="price_body">Unlimited</td>
-								    				</tr>
-								    				<tr>
-								        				<td class="plan_list_title">Enhanced Security</td>
-									        			<td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
-												        <td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
-								    				</tr>
-									    			<tr>
-								    	    			<td class="plan_list_title">E-mail</td>
-								        				<td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
-												        <td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
-									    			</tr>
-								    				<tr>
-								        				<td class="plan_list_title">Wordpress Support</td>
-												        <td class="price_body"><img src="images/icon-remove.png" alt="img"></td>
-											    	    <td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
-								    				</tr>
-								    				<tr>
-								        				<td class="plan_list_title">24/7 Support</td>
-								        				<td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
-											        	<td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
-								    				</tr>
-								    				<tr>
-								        				<td class="plan_list_title">Backups</td>
-												    	<td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
-												        <td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
-								    				</tr>
-								    				<tr>
-								        				<td class="plan_list_title">Dedicated IP</td>
-												        <td class="price_body">$2/mo</td>
-												        <td class="price_body">$2/mo</td>
-								    				</tr>
-												</tbody></table>  			 	
-  											 </div>
-												</div>
-											   <script>
-													$(document).ready(function() {
-														$('.popup-with-zoom-anim').magnificPopup({
-															type: 'inline',
-													
-															fixedContentPos: false,
-															fixedBgPos: true,
-													
-															overflowY: 'auto',
-													
-															closeBtnInside: true,
-															preloader: false,
-															
-															midClick: true,
-															removalDelay: 300,
-															mainClass: 'my-mfp-zoom-in'
-														});
-																					
-													});
-													</script>
-					              	
-					              </div>
-		<!----- //End-price---->
-			<div id="gallery" class="gallery">
-			<div class="container">
-				<div class="gallery-head">
-				 <div class="col-md-7">
-					   <h3>Want to see more ? Go to our Gallery page . . . . </h3>
-				</div>
-				 <div class="col-md-5">
-					  <a class="dow-btn" href="#">Gallery Page</a>
-				</div>
-			 	</div>
-			 </div>
-		  </div>
-		<!----- //End-gallery---->
-		<div  class="contact" id="contact">
-		<div class="container">
-				<h5>Get in touch!</h5>
-					<div class="col-md-7 contact-form">
-				  			<form>
-				  				<input type="text" class="textbox" value=" Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' Name';}">
-								<input type="text" class="textbox" value="E-Mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' E-Mail';}">
-								 <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message... ';}">Message...</textarea>
-								<input class="con-button " type="submit" value="Send" />
-							</form>
-						</div>
-						<div class="col-md-5 social-network">
-								<div class="follow-us">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing magna aliqua. </p>
-									<div class="span"><a href="#"><img src="images/fb.png" alt=""/><i>Find us on Facebook </i><div class="clearfix"></div></a></div>
-									<div class="span2"><a href="#"><img src="images/gg.png" alt=""/><i>Connect on Google+</i><div class="clearfix"></div></a></div>	
-    					 			<div class="span3"><a href="#"><img src="images/tw.png" alt=""/><i>Follow us on Twitter</i><div class="clearfix"></div></a></div>
-								</div>
-						</div>
-						  <div class="clearfix"> </div>
-				</div>
-			</div>
-		<!----//End-contact---->
+  <div class="row">
+    <div class="col-xs-12">
 
-		   		<div class="footer">
-		   			<div class="container">
-			   			<div class="copy-right">
-			   					<p>&copy; 2014  All rights  Reserved | Template by &nbsp;<a href="http://w3layouts.com">W3Layouts</a></p>
-						</div>
-					</div>
-		   		</div>
-				<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-</body>
+
+  <!----- start-header---->
+  <div class="header" id="home">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+      </div>
+      <span class="menu"> </span>
+      <div class="clearfix"> </div>
+      <script>
+        $( "span.menu" ).click(function() {
+          $( "ul.navig" ).slideToggle( "slow", function() {
+            // Animation complete.
+          });
+        });
+      </script>
+      <div class="navigation">
+        <ul class="navig">
+          <li class="active"><a href="#home" class="scroll">Home </a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#work" class="scroll">Work</a></li>
+          <li><a class="popup-with-zoom-anim" href="#small-dialog">Price</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+        </ul>
+
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+    <img class="banner-text" src="images/banner-text.png" />
+  </div>
+
+</div>
+</div>
+
+
+
+  <!----- //End-header---->
+  <div id="about" class="app-design">
+    <div class="container">
+      <div class="col-md-6 app-img">
+        <img src="images/iphone.png" />
+      </div>
+      <div class="col-md-6 app-text">
+        <h1>MOBILE APP DESIGN</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="app-icons">
+          <ul class="t-social unstyled-list list-inline">
+            <li><a class="android" href="#"><span> </span></a></li>
+            <li><a class="apple" href="#"><span> </span></a></li>
+            <li><a class="windows" href="#"><span> </span></a></li>
+            <div class="clearfix"> </div>
+          </ul>
+        </div>
+
+      </div>
+      <div class="clearfix"> </div>
+
+    </div>
+  </div>
+  <!----- //End-about---->
+  <div id="design" class="web-design">
+    <div class="container">
+      <div class="work-section">
+        <div class="col-md-5 web-text">
+          <h2>WEB DESIGN</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="web-icons">
+            <ul class="t-social unstyled-list list-inline">
+              <li><ahref="#"><img src="images/s.png" /></a></li>
+            <li><ahref="#"><img src="images/3.png" /></a></li>
+          <div class="clearfix"> </div>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-7 work-img">
+      <img src="images/system.png" />
+    </div>
+    <div class="clearfix"> </div>
+  </div>
+</div>
+    </div>
+    <!----sreen-gallery-cursual---->
+    <div id="work" class="work">
+      <div class="container">
+        <h3>Our recent work</h3>
+        <div class="sreen-gallery-cursual">
+          <link href="css/owl.carousel.css" rel="stylesheet">
+          <script src="js/owl.carousel.js"></script>
+          <script>
+            $(document).ready(function() {
+              $("#owl-demo").owlCarousel({
+                items :1,
+                lazyLoad : true,
+                autoPlay : true,
+                navigation : true,
+                navigationText :  false,
+                pagination :false,
+              });
+            });
+          </script>
+          <!-- //requried-jsfiles-for owl -->
+          <!-- start content_slider -->
+          <div id="owl-demo" class="owl-carousel text-center">
+            <div class="item">
+              <img src="images/slide1.png" />
+            </div>
+            <div class="item">
+              <img src="images/slide2.png" />
+            </div>
+            <div class="item">
+              <img src="images/slide1.png" />
+            </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+      </div>
+    </div>
+    <!----- //End-work---->
+    <div id="price" class="Price">
+      <div id="small-dialog" class="mfp-hide">
+        <div class="plans_table">
+
+          <table width="100%" cellspacing="0" class="compare_plan">
+            <thead>
+              <tr>
+                <th class="plans-list"><h3>Plan Features</h3></th>
+                <th class="plans-list"><h3>Basic</h3><h4>$5<small>/month</small></h4></th>
+                <th class="plans-list"><h3>Economy</h3><h4>$9<small>/month</small></h4></th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td> </td>
+                <td class="order_now"><a href="#account" class="scroll"><button>Order Now</button></a></td>
+                <td class="order_now"><a href="#account" class="scroll"><button>Order Now</button></a></td>
+              </tr>
+            </tfoot>				
+            <tbody>
+              <tr>
+                <td class="plan_list_title">Web Space</td>
+                <td class="price_body">Unlimited</td>
+                <td class="price_body">Unlimited</td>
+              </tr>
+              <tr>
+                <td class="plan_list_title">Bandwidth</td>
+                <td class="price_body">Unlimited</td>
+                <td class="price_body">Unlimited</td>
+              </tr>
+              <tr>
+                <td class="plan_list_title">25 GB Storage</td>
+                <td class="price_body"><img src="images/icon-remove.png" alt="img"></td>
+                <td class="price_body">Unlimited</td>
+              </tr>
+              <tr>
+                <td class="plan_list_title">iPhone App</td>
+                <td class="price_body"><img src="images/icon-remove.png" alt="img"></td>
+                <td class="price_body">Unlimited</td>
+              </tr>
+              <tr>
+                <td class="plan_list_title">Enhanced Security</td>
+                <td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
+                <td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
+              </tr>
+              <tr>
+                <td class="plan_list_title">E-mail</td>
+                <td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
+                <td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
+              </tr>
+              <tr>
+                <td class="plan_list_title">Wordpress Support</td>
+                <td class="price_body"><img src="images/icon-remove.png" alt="img"></td>
+                <td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
+              </tr>
+              <tr>
+                <td class="plan_list_title">24/7 Support</td>
+                <td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
+                <td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
+              </tr>
+              <tr>
+                <td class="plan_list_title">Backups</td>
+                <td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
+                <td class="price_body"><img src="images/tickmark-icon.png" alt="img"></td>
+              </tr>
+              <tr>
+                <td class="plan_list_title">Dedicated IP</td>
+                <td class="price_body">$2/mo</td>
+                <td class="price_body">$2/mo</td>
+              </tr>
+          </tbody></table>  			 	
+        </div>
+      </div>
+      <script>
+        $(document).ready(function() {
+          $('.popup-with-zoom-anim').magnificPopup({
+            type: 'inline',
+
+            fixedContentPos: false,
+            fixedBgPos: true,
+
+            overflowY: 'auto',
+
+            closeBtnInside: true,
+            preloader: false,
+
+            midClick: true,
+            removalDelay: 300,
+            mainClass: 'my-mfp-zoom-in'
+          });
+
+        });
+      </script>
+
+    </div>
+    <!----- //End-price---->
+    <div id="gallery" class="gallery">
+      <div class="container">
+        <div class="gallery-head">
+          <div class="col-md-7">
+            <h3>Want to see more ? Go to our Gallery page . . . . </h3>
+          </div>
+          <div class="col-md-5">
+            <a class="dow-btn" href="#">Gallery Page</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----- //End-gallery---->
+    <div  class="contact" id="contact">
+      <div class="container">
+        <h5>Get in touch!</h5>
+        <div class="col-md-7 contact-form">
+          <form>
+            <input type="text" class="textbox" value=" Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' Name';}">
+            <input type="text" class="textbox" value="E-Mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' E-Mail';}">
+            <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message... ';}">Message...</textarea>
+            <input class="con-button " type="submit" value="Send" />
+          </form>
+        </div>
+        <div class="col-md-5 social-network">
+          <div class="follow-us">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing magna aliqua. </p>
+            <div class="span"><a href="#"><img src="images/fb.png" alt=""/><i>Find us on Facebook </i><div class="clearfix"></div></a></div>
+            <div class="span2"><a href="#"><img src="images/gg.png" alt=""/><i>Connect on Google+</i><div class="clearfix"></div></a></div>	
+            <div class="span3"><a href="#"><img src="images/tw.png" alt=""/><i>Follow us on Twitter</i><div class="clearfix"></div></a></div>
+          </div>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+    </div>
+    <!----//End-contact---->
+
+    <div class="footer">
+      <div class="container">
+        <div class="copy-right">
+          <p>&copy; 2014  All rights  Reserved | Template by &nbsp;<a href="http://w3layouts.com">W3Layouts</a></p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        /*
+           var defaults = {
+containerID: 'toTop', // fading element id
+containerHoverID: 'toTopHover', // fading element hover id
+scrollSpeed: 1200,
+easingType: 'linear' 
+};
+         */
+
+        $().UItoTop({ easingType: 'easeOutQuart' });
+
+      });
+    </script>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+  </body>
 </html>

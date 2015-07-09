@@ -113,9 +113,16 @@ ul.navig li a:hover,.active{
 	position: relative;
 }
 .banner-text{
-	position: absolute;
-	top: 30%;
-	left: 25%;
+	position: relative;
+  display: block;
+  overflow: hidden;
+  height: auto;
+  padding: 0;
+  margin: auto;
+	/* top: 30%; */
+	/* left: 25%; */
+  /* max-width: 60%; */
+  width: 60%;
   opacity: 0.7;
 }
 .app-design{
@@ -592,29 +599,12 @@ h5{
 	filter: alpha(opacity=0);
 }
 /*---- responsive-design -----*/
-@media(max-width:1440px){
-	.banner-text {
-	position: absolute;
-	top: 36%;
-	left: 39%;
-	}
-}
 @media(max-width:1366px){
-	.banner-text {
-	position: absolute;
-	top: 36%;
-	left: 40%;
-	}
 	#home {
 	min-height: 676px;
 	}
 }
 @media(max-width:1280px){
-	.banner-text {
-	position: absolute;
-	top: 32%;
-	left: 38%;
-	}
 	#home {
 	min-height: 626px;
 	}
@@ -623,10 +613,6 @@ h5{
 	}
 }
 @media(max-width:1024px){
-	.banner-text {
-		top: 32%;
-		left: 35%;
-	}
 	#home {
 	min-height: 564px;
 	}
@@ -689,9 +675,6 @@ h5{
 @media(max-width:768px){
 	#home {
 	min-height: 382px;
-	}
-	.banner-text{
-	display: none;
 	}
 	.top-header {
 	padding-top: 4em;
