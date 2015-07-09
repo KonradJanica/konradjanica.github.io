@@ -115,13 +115,8 @@ ul.navig li a:hover,.active{
 .banner-text{
 	position: relative;
   display: block;
-  overflow: hidden;
   height: auto;
-  padding: 0;
   margin: auto;
-	/* top: 30%; */
-	/* left: 25%; */
-  /* max-width: 60%; */
   width: 60%;
   opacity: 0.7;
 }
