@@ -647,7 +647,11 @@ h5{
 	font-size: 1.8em;
 	}
 	.work-img img {
-	width: 100%;
+	/* width: 100%; */
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: block;
 	}
 	.contact-form {
 	width:62%;
