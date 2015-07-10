@@ -179,7 +179,7 @@ ul.navig li a:hover,.active{
 /*----work-section---------*/
 .web-design{
 	background: #E85E3C;
-	padding: 6em 0 0;
+	padding: 6em 0 6em 0;
 	border-top:1px solid #000;
 }
 .web-text h2 {
@@ -202,7 +202,11 @@ ul.navig li a:hover,.active{
 	width:100%;
 }
 .web-text {
-padding: 1em 0px;
+  padding: 1em 0px;
+}
+.web-iframe {
+  min-height: 400px;
+  max-width: 400px
 }
 /*----slider----*/
 #work{
@@ -647,11 +651,7 @@ h5{
 	font-size: 1.8em;
 	}
 	.work-img img {
-	/* width: 100%; */
-    width: auto;
-    height: auto;
-    margin: auto;
-    display: block;
+	width: 100%;
 	}
 	.contact-form {
 	width:62%;
@@ -688,7 +688,7 @@ h5{
 	margin-bottom: 3em;
 	}
 	.web-design {
-	padding: 2em 0 0;
+	padding: 2em 0 2em 0;
 	border-top: 1px solid #000;
 	}
 	.web-text {
@@ -800,7 +800,7 @@ h5{
 	right: 2.5%;
 	}
 	.web-design {
-	padding: 1em 0 0;
+	padding: 1em 0 1em 0;
 	}
 	.app-design h1, .web-text h2 {
 	font-size: 1.4em;
