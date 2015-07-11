@@ -26,10 +26,13 @@ body a{
 	float: none;
 	text-align: center;
 	padding: 3em 0;
+  opacity: 0.7;
 }
 ul.navig{
-	padding:0;
-	margin-top:8px;
+	padding:30px;
+	margin-top:40px;
+  margin-left:20px;
+  margin-right:20px;
 }
 ul.navig li{
 	display:inline-block;
@@ -97,9 +100,9 @@ ul.navig li a:hover,.active{
 	float: left;
 	display: block;
 	}
-	ul.navig li a:hover,.active{
-	color: #00B09C;
-	border-bottom:none;
+	ul.navig li a:hover{
+	color: #C14652;
+	border-bottom: 4px solid #E85E3C;
 	}
 }
 /*----slider----*/
