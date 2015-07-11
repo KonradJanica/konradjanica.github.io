@@ -134,6 +134,8 @@ ul.navig li a:hover,.active{
 	padding:4em 0 4em;
 }
 .app-text {
+  color: #F9D7CE; /* White - slightly red */
+  opacity: 0.8;
 	margin-top: 4em;
 }
 .app-design h1 {
@@ -186,8 +188,7 @@ ul.navig li a:hover,.active{
 }
 /*----work-section---------*/
 .web-design{
-    color: #F9D7CE;
-	background: #E85E3C;
+  background: #E85E3C;
 	padding: 2em 0 0 0;
 	border-top:1px solid #000;
 }
@@ -214,6 +215,8 @@ ul.navig li a:hover,.active{
 	width:100%;
 }
 .web-text {
+  color: #F9D7CE; /* White - slightly red */
+  opacity: 0.8;
   padding: 1em 0px;
 }
 .web-videowrapper {
