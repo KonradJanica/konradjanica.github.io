@@ -131,13 +131,12 @@ ul.navig li a:hover,.active{
 }
 .app-design{
 	background: #E85E3C;
-	padding:4em 0 0;
+	padding:4em 0 4em;
 }
 .app-text {
 	margin-top: 4em;
 }
 .app-design h1 {
-	color: #fff;
 	font-size: 1.55em;
 	padding: 0;
 	font-weight: 700;
@@ -188,26 +187,29 @@ ul.navig li a:hover,.active{
 /*----work-section---------*/
 .web-design{
 	background: #E85E3C;
-	padding: 6em 0 0 0;
+	padding: 2em 0 0 0;
 	border-top:1px solid #000;
 }
 .web-text h2 {
-	color: #fff;
 	font-size: 1.55em;
-	padding: 0;
 	font-weight: 700;
+	padding: 0;
 	text-align: left;
 	line-height: 1.4em;
 	font-family: 'Lato', sans-serif;
 }
 .web-text  p {
-	color: #fff;
 	font-size: 1.1em;
 	text-align:left;
 	font-family: 'Lato', sans-serif;
-	font-weight:300;
 	margin: 0.5em auto;
-	line-height: 1.9em;
+	width:100%;
+}
+.web-text ol {
+	font-size: 1.1em;
+	text-align:left;
+	font-family: 'Lato', sans-serif;
+	margin: 0.5em auto;
 	width:100%;
 }
 .web-text {
@@ -259,6 +261,7 @@ ul.navig li a:hover,.active{
 	font-family: 'Lato', sans-serif;
 	margin: 0;
 	text-transform: uppercase;
+  opacity: 0.7;
 }
 .work-container {
   -moz-transform: scaleX(-1);
@@ -330,82 +333,39 @@ div#work {
 	padding:2em 0 3em;
 	background: #121111;
 }
-.contact-form{
-	width:67%;
-	margin: 2px 20px;
-	padding:4% 0;
-	float:left;
+.contact h3{
+	color:#fff;
+	font-size:1.8em;
+	font-weight:700;
+	text-transform:uppercase;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+  opacity: 0.7;
+	
 }
-.social-network {
-	background: #2F2D2D;
-	padding: 2.8em 1em 2.7em 1em;
-	width: 25%;
-	float: right;
-	margin-top: 3em;
+.contact h4{
+	color:#fff;
+	font-size:1.1em;
+	font-weight:300;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.9em;
+  opacity: 0.7;
+}
+.contact hr{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 36vw;
+  margin-right: 36vw;
+  border-style: groove;
+  border-width: 1px;
+  opacity: 0.7;
 }
 form {
-	background: #2F2D2D;
+  background: #2F2D2D;
 	padding: 2em 0em 0em 1em;
 	position: relative;
-}
-.contact-form input[type="text"]{
-	border: 2px solid #100F0F;
-	width: 35%;
-	padding: 0.7em;
-	border-radius: 0.2em;
-	-webkit-border-radius: 0.2em;
-	-o-oborder-radius: 0.2em;
-	-moz-border-radius: 0.2em;
-	margin-bottom: 0.8em;
-	color: #C0BFBF;
-	 -webkit-appearance:none;
-    transition: border-color 0.3s;
-	-o-transition: border-color 0.3s;
-	-ms-transition: border-color 0.3s;
-	-moz-transition: border-color 0.3s;
-	-webkit-transition: border-color 0.3s;
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	outline:none;
-	font-weight:500;
-	background: #100F0F;
-	font-size: 1.1em;
-	font-family: 'Lato', sans-serif;
-}
-.contact-form textarea{
-	border: 2px solid #100F0F;
-	width: 70.5%;
-	padding: 0.6em;
-	margin-bottom: 1.5em;
-	color: #C0BFBF;
-	 -webkit-appearance:none;
-   font-family: 'Lato', sans-serif;
-	transition: border-color 0.3s;
-	-o-transition: border-color 0.3s;
-	-ms-transition: border-color 0.3s;
-	-moz-transition: border-color 0.3s;
-	-webkit-transition: border-color 0.3s;
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	outline: none;
-	font-weight: 500;
-	background: #100F0F;
-	font-size: 1.1em;
-	border-radius: 0.2em;
-	-webkit-border-radius: 0.2em;
-	-o-oborder-radius: 0.2em;
-	-moz-border-radius: 0.2em;
-}
-.contact-form input[type="text"]:hover,.contact-form textarea:hover,.text-box input[type="text"]:focus,.contact-form textarea:focus{
-	border-color:#0F8578;
-}
-.contact-form textarea{
-	height:180px;
-	resize: none;
 }
 h5{
 	color:#fff;
@@ -607,12 +567,15 @@ h5{
 	color: #eee;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
+  opacity: 0.9;
 }
 .copy-right p a{
 	color:#E85E3C;
+  opacity: 0.9;
 }
 .copy-right p a:hover{
 	color: #fff;
+  opacity: 0.9;
 }
 #toTop {
 	display: none;
@@ -671,6 +634,7 @@ h5{
 	color: #fff;
 	font-size: 1.6em;
 	padding: 5% 0 2% 0;
+  opacity: 0.7;
 	}
 	.gallery-head h3 {
 	font-size: 1.5em;
@@ -692,23 +656,6 @@ h5{
 	}
 	.work-img img {
 	width: 100%;
-	}
-	.contact-form {
-	width:62%;
-	margin: 2px 10px;
-	padding: 4% 0;
-	float: left;
-	}
-	.social-network {
-	padding: 2.5em 1em 2.45em 1em;
-	width: 35%;
-	float: right;
-	margin-top: 2.5em;
-	}
-	.contact-form input[type="text"] {
-	border: 2px solid #100F0F;
-	width: 35%;
-	padding: 0.6em;
 	}
 }
 @media(max-width:768px){
@@ -732,7 +679,7 @@ h5{
 	border-top: 1px solid #000;
 	}
 	.web-text {
-	padding: 0em 0px 3em;
+	padding: 0em 0px 0em;
 	}
 	.work-img {
 	text-align: center;
@@ -748,18 +695,6 @@ h5{
 	margin-top: 10px;
 	font-size: 1.5em;
 	width: 32%;
-	}
-	.contact-form {
-	width: 93%;
-	margin: 2px 24px;
-	padding: 4% 0;
-	float: none;
-	}
-	.social-network {
-	padding: 1.5em 0em 1.45em 0em;
-	width: 58%;
-	float: none;
-	margin: 0px 20px;
 	}
 	.follow-us p {
 	font-size: 15px;
@@ -786,10 +721,6 @@ h5{
 	.gallery-head {
 	padding: 3em 0px;
 	}
-	.contact-form textarea {
-	height: 133px;
-	resize: none;
-	}
 	.con-button {
 	width: 21%;
 	font-size: 1em;
@@ -808,12 +739,6 @@ h5{
 	.app-design h1,.web-text h2 {
 	font-size: 1.5em;
 	}
-	.contact-form {
-	width: 93%;
-	margin: 2px 15px;
-	padding: 3% 0;
-	float: none;
-	}
 	.gallery-head h3 {
 	font-size: 1.4em;
 	}
@@ -822,16 +747,6 @@ h5{
 	margin-top: 10px;
 	font-size: 1.2em;
 	width: 39%;
-	}
-	.contact-form input[type="text"] {
-	width: 35%;
-	padding: 0.5em;
-	font-size: 14px;
-	}
-	.contact-form textarea {
-	height: 102px;
-	resize: none;
-	font-size: 15px;
 	}
 	.con-button {
 	width: 24%;
@@ -848,6 +763,7 @@ h5{
 	#work h3 {
 	font-size: 1.4em;
 	padding: 5% 0 2% 0;
+  opacity: 0.7;
 	}
 	h5 {
 	font-size: 1.4em;
@@ -855,14 +771,9 @@ h5{
 	.contact {
 	padding: 1em 0 1.5em;
 	}
-	.social-network {
-	padding: 1.5em 0em 1.45em 0em;
-	width: 78%;
-	float: none;
-	margin: 0px 20px;
-	}
 	.copy-right p {
 	font-size: 15px;
+  opacity: 0.9;
 	}
 	.footer {
 	padding: 0.5em 0;
@@ -908,9 +819,6 @@ h5{
 	overflow: hidden;
 	height: 135px;
 	}
-	.web-icons {
-	margin-top: 16px;
-	}
 	.app-text {
 	margin-bottom: 2em;
 	}
@@ -918,11 +826,12 @@ h5{
 	margin-top: 17px;
 	}
 	.web-text {
-	padding: 0em 0px 1em;
+	padding: 0em 0px 0em;
 	}
 	#work h3 {
 	font-size: 1.2em;
 	padding: 5% 0 0% 0;
+  opacity: 0.7;
 	}
 	#work {
 	min-height: 255px;
@@ -942,18 +851,6 @@ h5{
 	#gallery {
 	min-height: 187px;
 	}
-	.contact-form input[type="text"] {
-	width: 95%;
-	padding: 0.4em;
-	font-size: 13px;
-	}
-	.contact-form textarea {
-	height: 67px;
-	resize: none;
-	font-size: 13px;
-	width: 95%;
-	margin-bottom: 0.5em;
-	}
 	form {
 	padding: 2em 0em 4em 1em;
 	position: relative;
@@ -970,18 +867,6 @@ h5{
 	.contact {
 	padding: 0.5em 0 1em;
 	}
-	.contact-form {
-	width: 93%;
-	margin: 2px 10px;
-	padding: 3% 0;
-	float: none;
-	}
-	.social-network{
-	padding: 1.5em 0em 1.45em 0em;
-	width: 92%;
-	float: none;
-	margin: 0px 12px;
-	}
 	.follow-us p {
 	font-size: 14px;
 	margin: 0% auto 5%;
@@ -990,6 +875,7 @@ h5{
 	.copy-right p {
 	font-size: 15px;
 	line-height: 1.6em;
+  opacity: 0.9;
 	}
 	.span i,.span2 i,.span3 i {
 	font-size: 14px;
