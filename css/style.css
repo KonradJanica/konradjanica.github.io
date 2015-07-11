@@ -21,6 +21,8 @@ body a{
 .logo {
 	float: left;
 	display: none;
+  margin-top: 14px;
+  opacity: 0.5;
 }
 .navigation{
 	float: none;
@@ -30,9 +32,9 @@ body a{
 }
 ul.navig{
 	padding:30px;
-	margin-top:40px;
-  margin-left:20px;
-  margin-right:20px;
+	margin-top:14px;
+  margin-left:50px;
+  margin-right:50px;
 }
 ul.navig li{
 	display:inline-block;
@@ -97,8 +99,10 @@ ul.navig li a:hover,.active{
 		margin-top:0em;
 	}
 	.logo {
-	float: left;
-	display: block;
+    float: left;
+    display: block;
+    top: 14px;
+    right: 20px;
 	}
 	ul.navig li a:hover{
 	color: #C14652;
@@ -805,9 +809,6 @@ h5{
 	min-height: 203px;
 	background-size: 100% 100%;
 	}
-	.logo a img {
-	width: 84%;
-	}
 	span.menu {
 	display: block;
 	width: 35px;
@@ -819,6 +820,10 @@ h5{
 	top: 9px;
 	right: 20px;
 	}
+  .logo {
+    top: 9px;
+    right: 20px;
+  }
 	.app-design {
 	padding: 2em 0 0;
 	}
