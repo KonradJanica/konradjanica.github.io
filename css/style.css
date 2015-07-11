@@ -120,6 +120,15 @@ ul.navig li a:hover,.active{
   width: 60%;
   opacity: 0.7;
 }
+.banner-description {
+	position: relative;
+  display: block;
+  margin: auto;
+  width: 60%;
+  opacity: 0.7;
+  color: white;
+  font-size: 2.5vw;
+}
 .app-design{
 	background: #E85E3C;
 	padding:4em 0 0;
@@ -233,6 +242,12 @@ ul.navig li a:hover,.active{
 	-o-background-size:cover;
 	-moz-background-size:cover;
 	min-height:500px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 #work h3 {
 	color: #fff;
@@ -244,6 +259,14 @@ ul.navig li a:hover,.active{
 	font-family: 'Lato', sans-serif;
 	margin: 0;
 	text-transform: uppercase;
+}
+.work-container {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 /*-------gallery--------------*/
 #gallery {
