@@ -131,11 +131,11 @@ margin: 4px;
 .header {
     position: fixed;
     width: 100%;
-    background: #CC4646;
+    background: #547980;
     z-index: 50;
     border-radius: 0;
     top: 0px;
-    border-bottom: 1px solid #F57676;
+    border-bottom: 1px solid #9DE0AD;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -162,13 +162,13 @@ background: transparent !important;
     background: #fff;
 }
 .navbar-inverse .navbar-nav > li > a {
-	color: #FFB8B8;
+	color: #FFF;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-color: #FFFFFF;
+color: #9DE0AD;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-color: #FFFFFF;
+color: #9DE0AD;
 background: none;
 }	
 .navbar-toggle {
@@ -263,7 +263,7 @@ background: none;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    color: #fff;
+    color: #9DE0AD;
     background: none;
 }
 
@@ -400,8 +400,8 @@ background: none;
 .da-dots span {
     display: inline-block;
     position: relative;
-    width: 16px;
-    height: 16px;
+    width: 32px;
+    height: 32px;
     border-radius: 0px;
     background: rgba(255, 255, 255, 0.13);
     margin: 3px;
