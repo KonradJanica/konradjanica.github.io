@@ -163,7 +163,7 @@ if (typeof Object.create !== "function") {
             var base = this;
             window.setTimeout(function () {
                 base.updateVars();
-            }, 0);
+            }, 1500);
         },
 
         watchVisibility : function () {
