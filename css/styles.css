@@ -457,9 +457,10 @@ border-radius: 0px;
 height: 15px;
 margin-top: 5px;
 background-color: #D6D6D6;
+/* background: #547980; */
 }
 .progress .progress-bar {
-background-color: #CC4646;
+  background: #547980;
 }
 /*Skills*/
 
