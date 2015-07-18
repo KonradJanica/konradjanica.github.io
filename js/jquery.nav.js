@@ -142,6 +142,18 @@
             return returnValue;
         },
 
+        revealOnScroll: function (windowTop) {
+          var win_height_padded = $(window).height() * 1.1;
+          $(".portfolio-desc:not(.portfolio-item-animation)").each(function () {
+            var $this     = $(this),
+              offsetTop = $this.offset().top;
+
+            if (windowTop + win_height_padded > offsetTop) {
+                $this.addClass('portfolio-item-animation');
+            }
+          });
+        },
+
         handleClick: function (e) {
             var self = this;
             var $link = $(e.currentTarget);
@@ -200,6 +212,8 @@
                     }
                 }
             }
+
+            this.revealOnScroll(windowTop);
         },
 
         scrollTo: function (target, callback) {
