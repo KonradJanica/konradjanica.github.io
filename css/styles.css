@@ -1087,14 +1087,14 @@ footer {
         width: 100%;
         min-width: initial;
         position: relative;
-        margin: auto auto;
+        margin: 0 auto;
     }
 
     .da-slide h2 {
         font-size: 30px;
         text-align: center;
         width: initial;
-        top: 20px;
+        top: 10px;
     }
 
     .da-dots {
