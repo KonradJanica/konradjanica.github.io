@@ -119,7 +119,7 @@ background: #9DE0AD;
     bottom: 20px;
     right: 20px;
     z-index: 5;
-	background: #547980;
+    background: #547980;
 }
 .topHome .fa-2x {
 font-size: 20px;
@@ -150,6 +150,7 @@ background: transparent !important;
     .navbar-inverse .navbar-toggle {
       border-color: #FFF;
       background-color: #547980;
+      outline: none;
     }
 
     .navbar-inverse .navbar-toggle:hover {
@@ -716,6 +717,7 @@ nav#filter {
 
 .current {
     background: #547980;
+    color: #FFF;
 }
 
 .portfolio-items article img {
