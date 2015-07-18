@@ -653,7 +653,7 @@ display: inherit;
   margin-right: 30vw;
   border-style: groove;
   border-width: 1px;
-  opacity: 0.7;
+  /* opacity: 0.7; */
 }
 
 #contactUs p {
