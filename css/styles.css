@@ -968,6 +968,24 @@ footer {
         max-width: 100%;
     }
 
+    .da-slider {
+        height: 380px;
+        width: 100%;
+        min-width: initial;
+        margin: 0px !important;
+    }
+.da-slide h2 {
+        font-size: 40px;
+        text-align: center;
+        width: initial;
+        top: 10px;
+    }
+
+    .da-slide p {
+        width: 65%;
+        top: 65px;
+        height: 50px;
+    }
     .header .navbar-nav > li > a {
         padding: 25px 12px;
     }
@@ -1061,6 +1079,23 @@ footer {
         background-size: contain;
     }
 
+    .da-slider {
+        height: 300px;
+    }
+
+    .da-slider {
+        width: 100%;
+        min-width: initial;
+        position: relative;
+        margin: auto auto;
+    }
+
+    .da-slide h2 {
+        font-size: 30px;
+        text-align: center;
+        width: initial;
+        top: 20px;
+    }
 
     .da-dots {
         bottom: 2px;
