@@ -159,7 +159,7 @@ background: transparent !important;
 }
 
 .navbar-inverse .navbar-toggle:hover .icon-bar {
-    background: #fff;
+    background: #FFF;
 }
 .navbar-inverse .navbar-nav > li > a {
 	color: #FFF;
@@ -229,7 +229,7 @@ background: none;
     padding: 16px 15px;
     line-height: 18px;
     height: 50px;
-    /*color:#547980;*/;
+    color:#547980;
 }
 
 .navbar-brand b {
@@ -268,7 +268,7 @@ background: none;
 }
 
 .navbar-nav > li:hover > a {
-    color: #fff;
+    color: #FFF;
 }
 
 .header .navbar-nav > li > a {
@@ -625,7 +625,7 @@ display: inherit;
 .team-member .member-img img {
     max-width: 250px;
     margin: 0 auto;
-    border: 1px solid #547980;
+    border: 2px solid #547980;
 }
 
 .team-member h4 {
@@ -729,6 +729,9 @@ nav#filter {
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+    padding:1px;
+    border:1px solid #547980;
+    background-color:#9DE0AD;
 }
 
     .portfolio-item img {
@@ -758,7 +761,7 @@ nav#filter {
     height: 100%;
     transition: all 200ms ease-in-out 0s;
     opacity: 1;
-    background: rgba(61, 61, 61, 0.67);
+    background: rgba(84, 121, 128, 0.67);
 }
 
 .portfolio-item .portfolio-desc a {
@@ -871,7 +874,7 @@ body {
 
             #navigation > li > a.current,
             #navigation > li:hover > a {
-                background: #999999;
+                background: #fff;
             }
 
 .pageSection {
