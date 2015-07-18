@@ -768,10 +768,10 @@ nav#filter {
     color: #fff;
     text-align: center;
     display: block;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
 }
 
     .portfolio-item .portfolio-desc a:hover {
-        /*text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);*/
         text-decoration: none;
     }
 
