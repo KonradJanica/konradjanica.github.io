@@ -152,6 +152,14 @@
                 $this.addClass('portfolio-item-animation');
             }
           });
+          $(".folio-info:not(.folio-info-animation)").each(function () {
+            var $this     = $(this),
+              offsetTop = $this.offset().top;
+
+            if (windowTop + win_height_padded > offsetTop) {
+                $this.addClass('folio-info-animation');
+            }
+          });
         },
 
         handleClick: function (e) {

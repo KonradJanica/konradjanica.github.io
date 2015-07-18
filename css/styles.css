@@ -802,8 +802,8 @@ nav#filter {
     top: -20px;
     padding: 30px;
     height: 0;
-    opacity: 0;
     position: relative;
+    opacity: 0;
 }
 
 .portfolio-item:hover .folio-info {
@@ -826,7 +826,7 @@ nav#filter {
 
 .folio-info-animation {
     height: 100%;
-    opacity: 1;
+    opacity: 1 !important;
     transition: all 500ms ease-in-out 0s;
     top: 5px;
 }
