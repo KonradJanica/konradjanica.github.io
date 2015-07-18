@@ -347,6 +347,7 @@ background: none;
         font-size: 1.6em;
         font-weight: normal;
         font-style: normal;
+        margin: 0 0 30px;
         color: #fff;
         text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
     }
