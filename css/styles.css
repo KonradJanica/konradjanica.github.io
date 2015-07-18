@@ -340,6 +340,7 @@ background: none;
         font-size: 3.5em;
         margin: 2% 0 30px;
         line-height: 1.2em;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
     }
 
     .banner-content p {
@@ -347,6 +348,7 @@ background: none;
         font-weight: normal;
         font-style: normal;
         color: #fff;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
     }
 
 .da-slider {
