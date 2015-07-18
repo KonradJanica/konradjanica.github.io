@@ -347,7 +347,6 @@ background: none;
         font-size: 1.6em;
         font-weight: normal;
         font-style: normal;
-        margin: 0 0 30px;
         color: #fff;
         text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
     }
@@ -969,24 +968,6 @@ footer {
         max-width: 100%;
     }
 
-    .da-slider {
-        height: 380px;
-        width: 100%;
-        min-width: initial;
-        margin: 0px !important;
-    }
-.da-slide h2 {
-        font-size: 40px;
-        text-align: center;
-        width: initial;
-        top: 10px;
-    }
-
-    .da-slide p {
-        width: 65%;
-        top: 65px;
-        height: 50px;
-    }
     .header .navbar-nav > li > a {
         padding: 25px 12px;
     }
@@ -1080,23 +1061,6 @@ footer {
         background-size: contain;
     }
 
-    .da-slider {
-        height: 300px;
-    }
-
-    .da-slider {
-        width: 100%;
-        min-width: initial;
-        position: relative;
-        margin: 0 auto;
-    }
-
-    .da-slide h2 {
-        font-size: 30px;
-        text-align: center;
-        width: initial;
-        top: 10px;
-    }
 
     .da-dots {
         bottom: 2px;
