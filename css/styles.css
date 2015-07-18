@@ -138,29 +138,28 @@ margin: 4px;
     border-bottom: 1px solid #9DE0AD;
 }
 
-.navbar-inverse .navbar-toggle {
-    border-color: #547980;
-    background-color: #547980;
-}
 .header .navbar {
 margin: 0;
 background: transparent !important;
 }
-    .navbar-inverse .navbar-toggle .icon-bar {
-        /*background-color: #547980;*/;
+
+.icon-bar {
+  color: #FFF;
+}
+
+    .navbar-inverse .navbar-toggle {
+      border-color: #FFF;
+      background-color: #547980;
     }
 
-    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-        background: #547980;
+    .navbar-inverse .navbar-toggle:hover {
+      background-color: #9DE0AD;
     }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     color: #547980;
 }
 
-.navbar-inverse .navbar-toggle:hover .icon-bar {
-    background: #FFF;
-}
 .navbar-inverse .navbar-nav > li > a {
 	color: #FFF;
 }
@@ -171,8 +170,6 @@ color: #9DE0AD;
 color: #9DE0AD;
 background: none;
 }	
-.navbar-toggle {
-}
 /*.carousel-inner*/
 #myCarousel {
     margin-top: 50px;

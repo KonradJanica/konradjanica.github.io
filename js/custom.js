@@ -18,16 +18,14 @@ var customScripts = {
                 $("html, body").animate({ scrollTop: 0 }, "slow");
                 return false;
             });
-            $('.navbar-inverse').on('click', 'li a', function () {
-                $('.navbar-inverse .in').addClass('collapse').removeClass('in').css('height', '1px');
-            });
+            // $('.navbar-inverse').on('click', 'li a', function () {\
+                // $('.navbar-inverse .in').addClass('collapse').removeClass('in').css('height', '1px');\
+            // });\
             $('#filter a').click(function () {
                 $('#filter a').removeClass('current');
                 $('#filter a').attr("style", "color: #547980");
-                $('#filter a').animate({letterSpacing: "0px"});
                 $(this).addClass('current');
                 $(this).attr("style", "color: #FFF");
-                $(this).animate({letterSpacing: "1px"});
                 var selector = $(this).attr('data-filter');
                 $container.isotope({
                     filter: selector,
@@ -38,6 +36,11 @@ var customScripts = {
                     }
                 });
                 return false;
+            });
+            var currentNavColor = "#547980";
+            $('#nav-toggle').click(function() {
+              currentNavColor = currentNavColor == "#547980" ? "#9DE0AD" : "#547980";
+              $(this).attr("style", "background-color: " + currentNavColor);
             });
             $(window).smartresize(function () {
                 $container.isotope({
