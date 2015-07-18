@@ -21,12 +21,12 @@ body {
 }
 
 ::selection {
-    color: #fff;
+    color: #FFF;
     background: #547980;
 }
 
 ::-moz-selection {
-    color: #fff;
+    color: #FFF;
     background: #547980;
 }
 
@@ -71,7 +71,7 @@ p {
 a {
     color: #547980;
     text-decoration: none;
-    text-shadow: none;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -ms-transition: all 0.2s linear;
@@ -194,7 +194,7 @@ background: none;
         padding: 10px 15px;
         background: rgba(128, 180, 33, 0.80);
         color: #FFFFFF;
-        text-shadow: none;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
         font-weight: bold;
         display: inline-block;
     }
@@ -240,7 +240,7 @@ background: none;
 
 .logo {
     font-size: 2.2em;
-    text-shadow: none;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
     margin: 8px 0 0 0;
 }
 
@@ -712,10 +712,13 @@ nav#filter {
         border: 1px solid #547980;
         text-decoration: none;
     }
+    
+    nav#filter a:hover {
+      color: #FFF;
+    }
 
 .current {
     background: #547980;
-    color: #fff;
 }
 
 .portfolio-items article img {
@@ -827,7 +830,7 @@ nav#filter {
     color: #333;
     padding: 0 10px 5px;
     margin: 20px 0 0;
-    text-shadow: none;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
 }
 
     .back-to-top:hover {

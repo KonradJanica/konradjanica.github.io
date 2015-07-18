@@ -23,7 +23,11 @@ var customScripts = {
             });
             $('#filter a').click(function () {
                 $('#filter a').removeClass('current');
+                $('#filter a').attr("style", "color: #547980");
+                $('#filter a').animate({letterSpacing: "0px"});
                 $(this).addClass('current');
+                $(this).attr("style", "color: #FFF");
+                $(this).animate({letterSpacing: "1px"});
                 var selector = $(this).attr('data-filter');
                 $container.isotope({
                     filter: selector,
