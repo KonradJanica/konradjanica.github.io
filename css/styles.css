@@ -645,9 +645,27 @@ display: inherit;
     padding: 0 8px;
 }
 
+#contactUs hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  border-style: groove;
+  border-width: 1px;
+  opacity: 0.7;
+}
 
+#contactUs p {
+	font-size:1.6em;
+	font-weight:300;
+	text-align:center;
+	line-height: 1.9em;
+}
 
-
+#contactUs a {
+  text-shadow: none;
+}
 
 .descrition {
     min-height: 90px;
@@ -904,7 +922,7 @@ footer {
 }
 
 .social a:hover {
-    color: #c0392b;
+    color: #547980;
 }
 
 .social a {
