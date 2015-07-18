@@ -80,7 +80,7 @@ a {
 }
 
     a:hover {
-        color: #DF3927;
+        color: #9DE0AD;
         text-decoration: none;
     }
 
@@ -89,7 +89,7 @@ a {
     border-radius: 0px;
 }
 .btn:hover {
-background: #E24040;
+background: #9DE0AD;
 }
 
 .btn-primary {
@@ -263,7 +263,7 @@ background: none;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    color: #547980;
+    color: #9DE0AD;
     background: none;
 }
 
@@ -874,7 +874,7 @@ body {
 
             #navigation > li > a.current,
             #navigation > li:hover > a {
-                background: #fff;
+                background: #FFF;
             }
 
 .pageSection {
