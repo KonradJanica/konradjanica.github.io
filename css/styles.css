@@ -782,9 +782,15 @@ nav#filter {
 .portfolio-item-animation {
     padding-top: 20%;
     height: 100%;
-    transition: all 200ms ease-in-out 0s;
-    /* opacity: 1; */
+    transition: all 1500ms ease-in-out 0s;
     background: rgba(84, 121, 128, 0.67);
+}
+
+.portfolio-item-animation-reverse {
+    padding-top: 20%;
+    height: 100%;
+    transition: all 1500ms ease-in-out 0s;
+    background: rgba(84, 121, 128, 0.00);
 }
 
 .portfolio-item .portfolio-desc a {
@@ -825,10 +831,13 @@ nav#filter {
 }
 
 .folio-info-animation {
-    height: 100%;
     opacity: 1 !important;
-    transition: all 500ms ease-in-out 0s;
-    top: 5px;
+    transition: all 1500ms ease-in-out 0s;
+}
+
+.folio-info-animation-reverse {
+    opacity: 0 !important;
+    transition: all 1500ms ease-in-out 0s;
 }
 
 .page-section.intro {

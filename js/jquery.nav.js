@@ -143,21 +143,33 @@
         },
 
         revealOnScroll: function (windowTop) {
-          var win_height_padded = $(window).height() * 1.1;
-          $(".portfolio-desc:not(.portfolio-item-animation)").each(function () {
+          var win_height_padded = $(window).height() * 0.6;
+
+          // Check whether portfolio is in sight and add animation
+          //   otherwise remove animation
+          // $(".portfolio-desc:not(.portfolio-item-animation)").each(function () {
+          $(".portfolio-desc").each(function () {
             var $this     = $(this),
               offsetTop = $this.offset().top;
 
             if (windowTop + win_height_padded > offsetTop) {
-                $this.addClass('portfolio-item-animation');
+              $this.removeClass('portfolio-item-animation-reverse');
+              $this.addClass('portfolio-item-animation');
+            } else {
+              $this.removeClass('portfolio-item-animation');
+              $this.addClass('portfolio-item-animation-reverse');
             }
           });
-          $(".folio-info:not(.folio-info-animation)").each(function () {
+          $(".folio-info").each(function () {
             var $this     = $(this),
               offsetTop = $this.offset().top;
 
             if (windowTop + win_height_padded > offsetTop) {
-                $this.addClass('folio-info-animation');
+              $this.removeClass('folio-info-animation-reverse');
+              $this.addClass('folio-info-animation');
+            } else {
+              $this.removeClass('folio-info-animation');
+              $this.addClass('folio-info-animation-reverse');
             }
           });
         },
@@ -221,7 +233,9 @@
                 }
             }
 
-            this.revealOnScroll(windowTop);
+            if (position === "portfolio") {
+              this.revealOnScroll(windowTop);
+            }
         },
 
         scrollTo: function (target, callback) {
