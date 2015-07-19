@@ -491,7 +491,7 @@ background-color: #D6D6D6;
   font-size: 1.2em;
   text-align: center;
   position: absolute;
-  top: 20px;
+  top: -25px;
   left: 50%;
   margin-left: -25px;
   background-color: #547980;
@@ -506,9 +506,9 @@ background-color: #D6D6D6;
 }
 #timeline .timeline-badge span.timeline-balloon-date-month {
   font-size: 13px;
-position: relative;
-top: -6px;  
-display: inherit;
+  position: relative;
+  top: -6px;  
+  display: inherit;
 }
 #timeline .timeline-badge.timeline-filter-movement {
   background-color: #ffffff;
@@ -516,12 +516,14 @@ display: inherit;
   height: 35px;
   margin-left: -18px;
   width: 35px;
-  top: 40px;
+  top: -16px;
 }
 #timeline .timeline-badge.timeline-filter-movement a span {
   color: #547980;
   font-size: 1.3em;
-  top: -1px;
+  text-shadow: none;
+  top: 2px;
+  left: -0px;
 }
 #timeline .timeline-badge.timeline-future-movement {
   background-color: #ffffff;
