@@ -820,14 +820,15 @@ nav#filter {
 }
 
 .portfolio-item .portfolio-desc .folio-info h5 {
-    text-transform: uppercase;
     text-align: center;
     font-weight: bold;
     font-size: 1.4em;
 }
 
 .portfolio-item .portfolio-desc .folio-info p {
+    text-align: center;
     font-size: 12px;
+    color: #FFF;
 }
 
 .folio-info-animation {
