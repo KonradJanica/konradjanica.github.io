@@ -18,6 +18,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
     background: #E4E4E4;
+    overflow-x: hidden;
 }
 
 ::selection {
@@ -28,6 +29,11 @@ body {
 ::-moz-selection {
     color: #FFF;
     background: #547980;
+}
+
+img {
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 
 p {
