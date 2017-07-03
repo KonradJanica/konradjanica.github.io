@@ -171,6 +171,8 @@ a:hover {
 .header .navbar {
     margin: 0;
     background: transparent !important;
+    user-select: none;
+    cursor: default;
 }
 
 .icon-bar {
@@ -187,17 +189,17 @@ a:hover {
     background-color: #9DE0AD;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+.navbar-inverse .navbar-nav > li > a:hover {
     color: #547980;
 }
 
 .navbar-inverse .navbar-nav > li > a {
     color: #FFF;
 }
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+.navbar-inverse .navbar-nav > li > a:hover {
     color: #9DE0AD;
 }
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover {
     color: #9DE0AD;
     background: none;
 }	
