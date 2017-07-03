@@ -124,7 +124,7 @@ var customScripts = {
 $('document').ready(function () {
                     customScripts.init();
 
-                    // Create cross browser requestAnimationFrame method:
+                    /*// Create cross browser requestAnimationFrame method:
                     window.requestAnimationFrame = window.requestAnimationFrame
                         || window.mozRequestAnimationFrame
                         || window.webkitRequestAnimationFrame
@@ -139,5 +139,5 @@ $('document').ready(function () {
 
                     window.addEventListener('scroll', function(){ // on page scroll
                         requestAnimationFrame(parallaxbubbles) // call parallaxbubbles() on next available screen repaint
-                    }, false)
+                    }, false)*/
 });
