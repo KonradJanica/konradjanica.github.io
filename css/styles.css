@@ -462,13 +462,21 @@ a:hover {
 }
 /*parlex*/
 .bg-parlex {
-    background: url('../images/banner-bg.jpg') no-repeat center center fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+    background: url('../images/banner-bg.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .parlex-back {
+    height: 100%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.37);
     color: #FDFDFD !important;
 }

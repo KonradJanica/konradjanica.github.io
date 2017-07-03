@@ -123,4 +123,21 @@ var customScripts = {
 }
 $('document').ready(function () {
                     customScripts.init();
+
+                    // Create cross browser requestAnimationFrame method:
+                    window.requestAnimationFrame = window.requestAnimationFrame
+                        || window.mozRequestAnimationFrame
+                        || window.webkitRequestAnimationFrame
+                        || window.msRequestAnimationFrame
+                        || function(f){setTimeout(f, 1000/60)}
+
+                    function parallaxbubbles(){
+                        var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically
+                        var scrollamount = (scrolltop / (document.body.scrollHeight-window.innerHeight)) * 100 // get amount scrolled (in %)
+                        document.getElementById('home-parlax').style.top = -scrolltop * 0.8 + 'px' // move bubble1 at 20% of scroll speed
+                    }
+
+                    window.addEventListener('scroll', function(){ // on page scroll
+                        requestAnimationFrame(parallaxbubbles) // call parallaxbubbles() on next available screen repaint
+                    }, false)
 });
