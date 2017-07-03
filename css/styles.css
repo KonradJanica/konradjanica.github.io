@@ -43,7 +43,6 @@ body {
     -webkit-font-smoothing: antialiased;
     background: #E4E4E4;
     overflow-x: hidden;
-    color: rgba(255,255,255,0.8);
 }
 
 ::selection {
@@ -325,8 +324,10 @@ a:hover {
     font-weight: 200;
 }
 
-.page-section h2 {
+h2 {
     color: #547980;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
+    font-size: 50px;
 }
 
 .page-section p {
@@ -447,6 +448,10 @@ a:hover {
 #introText {
     padding:50px 0;
     background:#fff;
+}
+
+#experience {
+    color: rgba(255,255,255,0.8);
 }
 
 #aboutUs .txtHead{
