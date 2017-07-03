@@ -10,22 +10,21 @@
 .bg-video {
     z-index: -9999;
     position: fixed;
-    right: 0;
-    bottom: 0;
-    width: 1080px;
+    right: -5%;
+    top: -5%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.full-height {
     height: 100%;
     min-height: 100%;
+}
+
+.full-width {
+    width: 100%;
     min-width: 100%;
-    overflow: hidden;
-    min-height: 100%;
-    min-width: 100%;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    background: none !important;
-    box-sizing: content-box !important;
-    height: 890.4px;
-    width: 1653.6px;
 }
 
 html {
