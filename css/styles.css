@@ -7,6 +7,27 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.bg-video {
+    z-index: -9999;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 1080px;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    min-width: 100%;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    background: none !important;
+    box-sizing: content-box !important;
+    height: 890.4px;
+    width: 1653.6px;
+}
+
 html {
     height: 100%;
 }
@@ -523,7 +544,7 @@ background-color: #D6D6D6;
   width: 35px;
   top: -16px;
 }
-#timeline .timeline-badge.timeline-filter-movement a span {
+#timeline .timeline-badge.timeline-filter-movement span {
   color: #547980;
   font-size: 1.3em;
   text-shadow: none;
