@@ -106,8 +106,19 @@ p {
 }
 
 .button-inline {
-    font-size: 80px;
-    padding-top: 50px;
+    font-size: 280px;
+    padding-bottom: 3px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.button-email {
+    color: #fff;
+}
+
+.button-email:hover {
+    color: black;
+    text-shadow: none;
 }
 
 a {
