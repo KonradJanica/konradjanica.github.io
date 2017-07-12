@@ -144,10 +144,10 @@ $('document').ready(function () {
                     $('#about-me-button').on('click', function(e) {
                         e.preventDefault();
 
-                        var offset = $('#about-me').offset().top;
+                        var offset = $(e.target.hash).offset().top;
 
                         $('html, body').animate({
                             scrollTop: offset - 70
-                        }, 950, 'swing');
+                        }, 3000, 'easeInQuad');
                     });
 });
