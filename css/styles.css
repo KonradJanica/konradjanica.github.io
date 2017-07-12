@@ -95,7 +95,19 @@ p {
 
 .button-outline:hover {
     color: #fff;
-    background: rgba(255,255,255,0.35);
+    background: rgb(24,24,24);
+    border-color: rgb(24,24,24);
+}
+
+.button-outline:focus {
+    color: #fff;
+    background: rgb(24,24,24);
+    border-color: rgb(24,24,24);
+}
+
+.button-inline {
+    font-size: 80px;
+    padding-top: 50px;
 }
 
 a {
@@ -112,6 +124,12 @@ a {
 a:hover {
     color: #9DE0AD;
     text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+    outline-color: white;
+    color: white;
 }
 
 .btn {
@@ -146,10 +164,11 @@ a:hover {
 
 .topHome {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 10px;
+    right: 10px;
     z-index: 5;
     background: #547980;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 }
 .topHome .fa-2x {
     font-size: 20px;
@@ -165,7 +184,8 @@ a:hover {
     z-index: 50;
     border-radius: 0;
     top: 0px;
-    border-bottom: 1px solid #9DE0AD;
+    border-bottom: 1px solid rgba(255,255,255,0.8);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 }
 
 .header .navbar {
@@ -326,11 +346,22 @@ a:hover {
     font-weight: 200;
 }
 
+h1 {
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    font-size: 50px;
+}
+
 h2 {
     color: #547980;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
     font-size: 50px;
 }
+
+h3 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
 
 .page-section p {
     font-size: 1.1em;
@@ -400,6 +431,12 @@ h2 {
 
 .sub-heading p {
     color: #5A5A5A;
+}
+
+#main-heading {
+    position: relative;
+    top: 30%;
+    left: 5%;
 }
 
 .heading { 

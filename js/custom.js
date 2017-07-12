@@ -140,4 +140,14 @@ $('document').ready(function () {
                     window.addEventListener('scroll', function(){ // on page scroll
                         requestAnimationFrame(parallaxbubbles) // call parallaxbubbles() on next available screen repaint
                     }, false)*/
+
+                    $('#about-me-button').on('click', function(e) {
+                        e.preventDefault();
+
+                        var offset = $('#about-me').offset().top;
+
+                        $('html, body').animate({
+                            scrollTop: offset - 70
+                        }, 950, 'swing');
+                    });
 });
